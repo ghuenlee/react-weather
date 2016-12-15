@@ -26474,15 +26474,28 @@
 	module.exports = React.createClass({
 	    displayName: 'exports',
 
+	    getInitialState: function getInitialState() {
+	        return {
+	            location: 'Miami',
+	            temp: 88
+	        };
+	    },
 	    handleSearch: function handleSearch(location) {
-	        alert(location);
+	        this.setState({
+	            location: location,
+	            temp: 23
+	        });
 	    },
 	    render: function render() {
+	        var _state = this.state,
+	            temp = _state.temp,
+	            location = _state.location;
+
 	        return React.createElement(
 	            'div',
 	            null,
 	            React.createElement(WeatherForm, { onSearch: this.handleSearch }),
-	            React.createElement(WeatherMessage, null)
+	            React.createElement(WeatherMessage, { location: location, temp: temp })
 	        );
 	    }
 	});
@@ -26543,10 +26556,17 @@
 
 
 	    render: function render() {
+	        var location = this.props.location;
+	        var temp = this.props.temp;
+
 	        return React.createElement(
 	            'h3',
 	            null,
-	            'This is the Weather Message!'
+	            'It is ',
+	            temp,
+	            ' in ',
+	            location,
+	            '!'
 	        );
 	    }
 	});
