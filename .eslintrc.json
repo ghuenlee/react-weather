@@ -16,8 +16,6 @@
     ],
     "rules": {
         "no-console": 0,
-<<<<<<< HEAD
-=======
         "indent": [
             "error",
             4
@@ -30,7 +28,6 @@
             "error",
             "double"
         ],
->>>>>>> b2da5667e30e783c76d031ba130eada1cee38967
         "semi": [
             "error",
             "always"

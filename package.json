@@ -9,10 +9,7 @@
   "author": "Myself",
   "license": "ISC",
   "dependencies": {
-<<<<<<< HEAD
     "axios": "^0.15.3",
-=======
->>>>>>> b2da5667e30e783c76d031ba130eada1cee38967
     "express": "^4.14.0",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
