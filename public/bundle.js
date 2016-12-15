@@ -57,8 +57,13 @@
 
 	var Main = __webpack_require__(233);
 	var Weather = __webpack_require__(235);
+<<<<<<< HEAD
 	var About = __webpack_require__(264);
 	var Examples = __webpack_require__(265);
+=======
+	var About = __webpack_require__(238);
+	var Examples = __webpack_require__(239);
+>>>>>>> b2da5667e30e783c76d031ba130eada1cee38967
 
 	ReactDOM.render(React.createElement(
 	    Router,
@@ -26470,7 +26475,10 @@
 
 	var WeatherForm = __webpack_require__(236);
 	var WeatherMessage = __webpack_require__(237);
+<<<<<<< HEAD
 	var openWeatherMap = __webpack_require__(238);
+=======
+>>>>>>> b2da5667e30e783c76d031ba130eada1cee38967
 
 	module.exports = React.createClass({
 	    displayName: 'exports',
@@ -26482,6 +26490,7 @@
 	        };
 	    },
 	    handleSearch: function handleSearch(location) {
+<<<<<<< HEAD
 	        var that = this;
 	        openWeatherMap.getTemp(location).then(function (temp) {
 	            that.setState({
@@ -26490,6 +26499,11 @@
 	            });
 	        }, function (err) {
 	            alert(err);
+=======
+	        this.setState({
+	            location: location,
+	            temp: 23
+>>>>>>> b2da5667e30e783c76d031ba130eada1cee38967
 	        });
 	    },
 	    render: function render() {
@@ -26581,6 +26595,7 @@
 /* 238 */
 /***/ function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 	"use strict";
 
 	var axios = __webpack_require__(239);
@@ -28112,6 +28127,27 @@
 
 /***/ },
 /* 265 */
+=======
+	'use strict';
+
+	var React = __webpack_require__(1);
+
+	module.exports = React.createClass({
+	    displayName: 'exports',
+
+
+	    render: function render() {
+	        return React.createElement(
+	            'h3',
+	            null,
+	            'About Route'
+	        );
+	    }
+	});
+
+/***/ },
+/* 239 */
+>>>>>>> b2da5667e30e783c76d031ba130eada1cee38967
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
