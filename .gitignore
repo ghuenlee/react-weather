@@ -3,3 +3,4 @@
 
 # Files to ignore:
 /example-promise.js
+/.eslint.json
