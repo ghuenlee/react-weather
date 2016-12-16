@@ -1,10 +1,9 @@
 var React = require('react');
 
-module.exports = React.createClass({
+var About = () => {
+    return (
+        <h3>Stateless About Route</h3>
+    );
+};
 
-    render: function () {
-        return (
-            <h3>About Route</h3>
-        )
-    }
-});
+module.exports = About;

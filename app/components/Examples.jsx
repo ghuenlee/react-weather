@@ -1,9 +1,9 @@
 var React = require('react');
 
-module.exports = React.createClass({
-    render: function () {
-        return (
-            <h3>Examples Route</h3>
-        )
-    }
-})
+var Examples = () => {
+    return (
+        <h3>Stateless Examples Route</h3>
+    );
+};
+
+module.exports = Examples;
