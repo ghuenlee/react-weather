@@ -14,7 +14,7 @@ This is an extremely simple react weather app, built with the following modules:
 Look up package.JSON for further details on the dependencies.
 
 ### How to install ?
-For Linux/Mac users:
+**For Linux/Mac users**:
 Clone the repository into one of your folders, then Cd into it:
 ``` 
 git clone git@github.com:ghuenlee/react-weather.git
@@ -27,3 +27,5 @@ webpack
 node server
 ```
 Done! just open your brower and head to localhost:3000. Voila!
+
+**Windows users**, follow the same steps, though use  ``` npm install ``` instead of ``` sudo npm install ```.
