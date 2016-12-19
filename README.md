@@ -19,16 +19,16 @@ Look up package.JSON for further details on the dependencies.
 **For Linux/Mac users**:
 Clone the repository into one of your folders, then Cd into it:
 ``` 
-git clone git@github.com:ghuenlee/react-weather.git
-cd react-weather
+$ git clone git@github.com:ghuenlee/react-weather.git
+$ cd react-weather
 ```
 Once cloned and opened, type these commands in the terminal to install dependencies and start the app:
 ``` 
-sudo npm install
-webpack
-node server
+$ sudo npm install
+$ webpack
+$ node server
 ```
 Done! just open your brower and head to localhost:3000. Voila!
 
-**Windows users**, follow the same steps, though use  ``` npm install ``` instead of ``` sudo npm install ```.
+**Windows users**, follow the same steps, though use  ``` $ npm install ``` instead of ``` $ sudo npm install ```.
 
