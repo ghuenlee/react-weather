@@ -9,3 +9,7 @@ This an extremely simple react weather app, built with the following modules:
   - React
 
 Look up package.JSON for further details on the dependencies.
+
+# How to run ?
+
+Simply type in these commands:
