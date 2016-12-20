@@ -1,10 +1,11 @@
 var React = require('react');
 var Nav = require('Nav');
 
-// Main, About, Nav and Examples, since stateless, were modified to support the new ES6
+// Main, About, Nav and Examples, since stateless(don't use states), were modified to support the new ES6
 // arrow function!
 
 var Main = (props) => {
+    // basically translates to: var Main = function(props) {}
     return (
         <div>
             <Nav />

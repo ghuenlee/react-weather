@@ -13,12 +13,11 @@ module.exports = React.createClass({
     render: function () {
         return (
             <div>
-                <h1>Get Weather</h1>
                 <form onSubmit={this.onFormSubmit}>
-                    <input type="text" ref="city" placeholder="City name" />
-                    <button>Get Weather</button>
+                    <input type="search" ref="city" placeholder="Search weather by city..." />
+                    <button className="button expanded hollow">Get Weather</button>
                 </form>
             </div>
-        )
+        );
     }
 });

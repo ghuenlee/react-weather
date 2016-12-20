@@ -4,7 +4,7 @@ var Link = require('react-router').Link;
 var Examples = () => {
     return (
         <div>
-            <h1 className="text-center">Stateless Examples Route </h1>
+            <h2 className="text-center page-title">Examples</h2>
             <p> Here is a fucking example:</p>
             <ol>
                 <li>
